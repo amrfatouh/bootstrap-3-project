@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Internet Explorer compatability -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- for mobile first design (???) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3 project</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Fatouh <span>Inc.</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="main-navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Programing</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Desktop</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Web Hosting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+
+    <div class="slides">
+        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+                <li data-target="#main-carousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-overlay"></div>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-image" style='background-image: url("images/carousel/1.jpg");'></div>
+                    <div class="carousel-caption">
+                        <h2>Programing</h2>
+                        <div class="lead">Transition animations not supported in Internet Explorer 8 & 9Bootstrap
+                            exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the
+                            necessary CSS properties. Thus, there are no slide transition animations when using these
+                            browsers. We have intentionally decided not to include jQuery-based fallbacks for the
+                            transitions.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-image" style='background-image: url("images/carousel/2.jpg");'></div>
+                    <div class="carousel-caption">
+                        <h2>Web Design</h2>
+                        <div class="lead">Transition animations not supported in Internet Explorer 8 & 9Bootstrap
+                            exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the
+                            necessary CSS properties. Thus, there are no slide transition animations when using these
+                            browsers. We have intentionally decided not to include jQuery-based fallbacks for the
+                            transitions.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-image" style='background-image: url("images/carousel/3.jpg");'></div>
+                    <div class="carousel-caption">
+                        <h2>Desktop</h2>
+                        <div class="lead">Transition animations not supported in Internet Explorer 8 & 9Bootstrap
+                            exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the
+                            necessary CSS properties. Thus, there are no slide transition animations when using these
+                            browsers. We have intentionally decided not to include jQuery-based fallbacks for the
+                            transitions.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-image" style='background-image: url("images/carousel/4.jpg");'></div>
+                    <div class="carousel-caption">
+                        <h2>Web Hosting</h2>
+                        <div class="lead">Transition animations not supported in Internet Explorer 8 & 9Bootstrap
+                            exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the
+                            necessary CSS properties. Thus, there are no slide transition animations when using these
+                            browsers. We have intentionally decided not to include jQuery-based fallbacks for the
+                            transitions.</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
