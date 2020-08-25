@@ -78,7 +78,7 @@ body {
     max-height: 100%;
 }
 .slides .carousel-caption {
-    top: 30px;
+    bottom: 170px;
 }
 .slides .carousel-caption h2 {
     font-weight: bold;
